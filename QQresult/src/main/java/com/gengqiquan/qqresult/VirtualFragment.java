@@ -12,8 +12,10 @@ public class VirtualFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        request.post(resultCode, data);
-        request = null;
+        if (request != null) {// may be fragment instance recreate
+            request.post(resultCode, data);
+            request = null;
+        }
         this.getActivity().getFragmentManager().beginTransaction().remove(this).commitAllowingStateLoss();
         super.onActivityResult(requestCode, resultCode, data);
     }
