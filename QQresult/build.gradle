@@ -42,7 +42,7 @@ publish {
     userOrg = 'adrianzuo'//bintray.com用户名
     groupId = 'com.che300'//jcenter上的路径
     artifactId = 'QQResult'//项目名称
-    publishVersion = '0.0.1'//版本号
+    publishVersion = '0.0.6'//版本号
     desc = 'make onActivityResult to be callback'//描述，不重要
     website = 'https://github.com/car300/QQResult'
 }

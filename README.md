@@ -1,5 +1,5 @@
-[![GitHub QQResult release version](https://img.shields.io/github/release/gengqiquan/QQResult/all.svg?label=QQResult&maxAge=600)](https://github.com/gengqiquan/QQResult/releases) 
-[![License](https://img.shields.io/github/license/gengqiquan/QQResult.svg?label=LICENSE&maxAge=2592000)](https://github.com/gengqiquan/QQResult/blob/master/LICENSE)
+[![GitHub QQResult release version](https://img.shields.io/github/release/car300/QQResult/all.svg?label=QQResult&maxAge=600)](https://github.com/car300/QQResult/releases) 
+[![License](https://img.shields.io/github/license/car300/QQResult.svg?label=LICENSE&maxAge=2592000)](https://github.com/car300/QQResult/blob/master/LICENSE)
 
  Obtain results intent from startActivityForResult() to be callback.
  
@@ -35,7 +35,7 @@ call in activity or fragment
 ## gradle
 ```
 
-compile 'com.gengqiquan:QQResult:0.0.5'
+compile 'com.car300:QQResult:0.0.6'
 
 ```
 
@@ -75,5 +75,5 @@ kotlin
 ```
 ## gradle
 ```
-compile 'com.gengqiquan:result-adapter-rxjava:0.0.5'
+compile 'com.car300:result-adapter-rxjava:0.0.6'
 ```
